@@ -1,0 +1,16 @@
+| hole\-sw,star | 2a02:ed06:1000:1::/126 | vlan 2100----
+15¤h1. Fakturering
+
+A way to automagically send invoices to members, and register payments.
+
+Made a system to parse BBS emails from the bank and register payments,
+along with a simple webUI to check on these payments and confirm new members.
+
+Since members pre\-pay for x months, they will receive two warnings: one when there is one month left, one when there is one week left. We can discuss giving a week of grace before disconnection.
+
+Ideally, we connect this system to the PDU so that it is fully automatic and doesn't need human intervention to operate.
+
+h2. TODO
+
+* What remains is using FinFaktura (https://code.google.com/p/finfaktura/) to mail out the invoices and reminders.
+* We should have a buffer, so we don't have to suddenly raise the monthly fee in case a few members drops out. Perhaps we can have a party to launch the Nettlaug, where the proceeds go towards this buffer? 

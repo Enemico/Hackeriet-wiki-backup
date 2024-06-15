@@ -1,0 +1,78 @@
+Before the boot server, installfests were a lot of "fun". I mean, they still are, but the boot server allows everyone present to start the install and proceed before failing or succeeding, without any of this "who has the working boot media" stuff.----
+42¤h1. tty23
+
+h2. The all\-singing\-all\-dancing IRC linux machine
+
+TTY23 is a tiny OS filesystem cleverly connected to IRC which hangs out on a couple of channels.
+
+Users are encouraged to play with TTY23 on #tty23 (Freenode), and then show off their hacks on #oslohackerspace.
+
+Please explore the machine, but realize that when you break it, you create work for someone else. Therefore, breaking tty23 is only encouraged when done in an original manner.
+
+h3. Starting & stopping TTY23
+
+
+
+h3. how its glued together
+
+Here's how we do it:
+
+Today, TTY23 is hosted on Lord [[Nikon]]. 
+
+@/opt/hackeriet/tty23@ contains all the files.
+Focus your mind on @tty23.fs@ and @uml.sh@
+
+@tty23.fs@ is an image with a ext4 filesystem containing the OS.
+@uml.sh@ starts a User Mode Linux kernel with this fs as root,and slirp as the network device.
+
+Booting tty23 involves simply running this @uml.sh@ script.
+Once the kernel boots,it hans control to init, which starts @/etc/rcS@, a short shellscript responsible for setting up slirp networking and starting the shells thru shelld.
+
+slirp is a very simple ip netork\-over\-a\-serial\-line, and was chosen because it does not require any special privileges on the host. Of course, that means it is pretty obscure and quite limited. slirp is configured in @~tty23/.slirprc@ on [[nikon]].
+
+The shells are similar to getty shells but skip login and connect to irc instead. @rcS@ launches @shelld@ as the @id@ user, which launches @/irc/connect@ and then @/irc/login@ for each channel.
+Each channel thus gets its own independent terminal.
+
+A login simply tails the channel out file, filters (through the @fi@ binary) all lines directed at tty23, and pipes this to the shell. Output is redirected to the channel in file.
+
+h3. History
+
+h4. In the Beginning Was The Command Line
+
+Pippin made this as a proof\-of\-concept when a friend asked "What happens when you `rm \-rf /` a running system?" back in 2009 or so. At the time, he hand\-rolled a minimal filesystem with busybox and other needful binaries, and booted the whole thing over qemu on his shared hosting provider "somewhere in Europe".
+
+He called the thing `irs` and hooked the terminal up to irc with `irc\-relay`, a C program that lives at  http://git.busydoingnothing.co.uk/cgit.cgi/irc\-relay.git
+
+h4. Leaner, meaner and Hackeriet\-hosted
+
+Pippin's hosting wasn't the most flexible, so we decided to host it on pattie.
+Comotion obtained the filesystem from Pippin and in the name of minimalism ported it to User\-Mode\-Linux, replacing irc\-relay with sic (Suckless IRC Client) in the process.
+
+UML uses far less CPU resources while running, and was a success once he figured out the arcane SLiRP networking. 
+
+SIC needed heavy patching and was a hack on a hack and never quite lived up to its potential.
+
+h4. TTY32 or fortunes galore
+
+After a year or two of uptime, TTY23 was broken by some clever rm\-f'ing and everyone had grown tired of its ever\-repeating fortunes. Considering that ```tty23: fortune``` was the most used\-command at the time, this was considered a major bug.
+
+Comotion hand\-rolled the world's largest fortune database and put TTY23 online again.
+
+Some time later, Comotion ported the IRC component to Suckless IrcIt, again heavily patched to accomodate a terminal. The big difference being that instead of connecting a serial line from TTY23 to an (external) irc process, TTY23 itself connects to IRC through IrcIt, and becomes self\-hosted in a way. 
+
+II unfortunately has a bug which makes it repeat a line if the input doesn't end in a newline. A bug that it seems Real Hard to fix..
+
+h4. Pattie is dead, long live Nikon!
+
+Pattie's disk died and the hardware was too terrible to fix, so we have a new host, Lord [[Nikon]]. Unfortunately, getting tty32 back up and running was non\-trivial, and so 10 months passed before this service was restored.
+
+The problem turned out being that nikon is 64\-bit and tty32 is 32\-bit, and 64bit UML will refuse to launch 32bit binaries. A 32bit kernel upgrade later and tty23 rises from the ashes!
+
+h4. IIM \- Irc It Improved
+
+In November 2014, with the restoration of tty23, a new attempt at fixing the irc interface was performed, this time by replacing II with IIM.
+
+The good news is that the irc bug disappeared.
+The bad news is that any command that does not end in a newline also disappears!
+
+

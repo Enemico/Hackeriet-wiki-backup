@@ -1,0 +1,61 @@
+See also http://meshfx.org/trac/wiki/nodelist for a list of hardware used earlier.----
+20Â¤h1. Nodes i Dugnadsnett for alle
+
+Denne informasjonen brukes til å oppdatere http://dugnadsnett.nuug.no/ .  Noder med MAC\-adresse og GPS\-posisjon blir med på kartoversikten.  Nodenavnet blir brukt i både nodegraf og nodekart.  Besøk http://flynor.net/mesh/mesh.php for å se avstand mellom noder.
+
+|_.Sted            |_.GPS               |_.Operatør  |_.Maskinvare |_.Firmware\-versjon |_.Notater |_.MAC |_.Nodenavn |_.Sist sett |
+| Hausmansgate 34 | 59.91911 10.75206 | Hackeriet | Fonera 2100 | ? | | 00:18:84:1b:78:11 | Hackeriet | 2014\-02\-25 |
+| Gunnar Scjelderups vei 29D | 59.95050 10.77258 | pere | TP\-Link WDR3600 | OpenWRT Barrier Breaker (Bleeding Edge, r38896) | DHCP server | 12:fe:ed:84:73:63 | nydalen | 2014\-01\-23 |
+| | 59.94377 10.71761 | pere | Dell | Debian Edu wheezy| | 00:0b:7d:0a:38:21 | | 2013\-12\-20 |
+| | 59.95092 10.77278 | hgb | TP\-Link WDR3600 | | | 10:fe:ed:84:64:a5 | | 2014\-01\-23 |
+| | 59.95068 10.77281 | pere | TP\-Link MR3040 | | | 66:66:b3:42:68:42 | | 2014\-01\-23 |
+| | 59.94365 10.71738 | pere | KVM | | | 12:04:a1:7e:ce:b4 | dugnadsnett.nuug.no | 2013\-12\-21 |
+| Frydenbergveien 56 | 59.9291240 10.7899880 | oka | HP | Fedora | | 20:10:7a:15:21:09 | topologix | 2014\-06\-30 |
+| | 59.91218 10.76892 | pere | TP\-Link MR3040 | | | 92:f6:52:7f:f0:81 | nuug\-mr3040\-1 | 2014\-01\-26 |
+| | 59.92461 10.76032 | mortenmk | TP\-Link MR3040 | | | 92:f6:52:7f:f3:41 | nuug\-mr3040\-2 | 2014\-01\-25 |
+| | | kjetilho | TP\-Link MR3040 | | | | nuug\-mr3040\-3 | 2014\-01\-20 |
+| | | pere | TP\-Link WDR3600 | | | 66:66:b3:4f:f9:cc | nuug\-wdr3600\-1 | 2014\-01\-23 |
+| | 59.94366 10.71794 | pere | RPI | | | 00:0f:13:40:00:4f | nuug\-rpi\-1 | 2014\-02\-20 |
+| Hausmansgate 34 | 59.91911 10.75206 | pere | RPI | | | 00:0f:13:40:08:2c | nuug\-rpi\-2 | 2014\-02\-25 |
+| | 59.73703 10.02365 | viff | | | | | | 2013\-11\-29 |
+| | 59.91649 10.71031 | head | | | | | | 2013\-11\-16 |
+| | 59.92485 10.71102 | capitol | | | |  | | 2013\-11\-13 |
+| | 59.92886 10.71799 | jarib | | | |  | | 2013\-12\-15 |
+| | 59.94389 10.71890 | dragonfly | | | |  | | 2013\-11\-28 |
+| | 59.933524 10.740001 | kjetilho | | | | | | 2013\-11\-14 |
+| | 59.91456 10.75087 | toresbe | | | | | | 2013\-11\-13 |
+| | 59.923243 10.754058 | ponas | | | | | | 2013\-12\-12 |
+| | 59.91748 10.75487 | dev | | | |  | | 2013\-11\-28 |
+| | 59.91527 10.75682 | phed | | | |  | | 2013\-11\-19 |
+| | 59.93215 10.75890 | torbjpl | | | | | | 2013\-11\-28 |
+| | 59.91595 10.76037 | Tvilling | | | | | | 2013\-11\-16 |
+| | 59.92846 10.76314 | jonnor | | | | 20:7c:8f:10:ef:8a | | 2013\-12\-04 |
+| | 59.91540 10.76373 | fnords | | | | | | 2013\-11\-28 |
+| | 59.9112805 10.7643699 | knuty | | | | | | 2013\-11\-25 |
+| | 59.94164 10.76762 | effbiai | | | | | | 2013\-11\-19 |
+| | 59.94341 10.77686 | sjn | | | | | | 2013\-11\-25 |
+| | 59.92582 10.78241 | dash | | | | | | 2013\-11\-13 |
+| | 59.91499 10.78271 | Tvilling | | | | | | 2013\-11\-16 |
+| Turbinveien 5 | 59.904047 10.787412 | BFG | RPi\-B |  meshfx debian | Tilbyr internett GW på 192.168.1.*/24 | b8:27:eb:37:00:7c | BFGmeshfx | 2014\-01\-21 |
+| Turbinveien 5 | 59.904047 10.787412 | BFG | x86_64 | Ubuntu 13.10 Server  | | 90:e6:ba:99:70:a6 | octagon.blenning.no | 2014\-01\-21 |
+| Turbinveien 5 | 59.904047 10.787412 | BFG | x86_64 | Ubuntu 13.10 Desktop | | 00:1f:29:8d:1b:9c | bfg\-rep.blenning.no | 2014\-01\-21 |
+| Turbinveien 5 | 59.904047 10.787412 | BFG | x86_64 | Ubuntu 13.10 Desktop | Virtuell test\-maskin| 5e:29:af:28:3c:a7 | bfg\-ubuntu | 2014\-01\-21 |
+| | 59.932000 10.789682 | kid | | | | 24:3c:20:09:1a:41 | | 2013\-11\-26 |
+| | 59.932000 10.789682 | kid | | | | F8:1A:67:CA:8B:D3 | | 2013\-11\-28 |
+| Rosendalsveien 16B| 59.857933 10.798685 | BFG | x86_64 | Ubuntu 12.04 Server  | | da:bf:4f:c5:a2:71 | login.blenning.no | 2013\-12\-04 |
+| | 59.91425 10.81367 | guten | | | | | | 2013\-11\-28 |
+| | 59.85630 10.82750 | OsteHovel | | | | | | 2013\-11\-16 |
+| | 59.91830 10.84172 | martbo | | | | | | 2013\-11\-16 |
+| | 60.10778 10.84864 | espegro | | | | | | 2013\-11\-13 |
+| | 59.947245 10.850001 | olekvi | | | | 00:13:ef:d0:0e:f0 | | 2013\-11\-16 |
+| | 59.886224 10.853032 | ior | | | | | | 2013\-11\-28 |
+| | 59.96304 10.86792 | ambientsound | | | | | | 2013\-11\-16 |
+| | 59.92242 10.87145 | Malinux | | | | | | 2013\-11\-29 |
+| | 59.96291 10.87579 | Malinux | | | | | | 2013\-11\-29 |
+| | 59.95741 10.89199 | tobixen | | | | | | 2013\-11\-26 |
+| | 59.96735 10.89909 | des | | | | | | 2013\-11\-15 |
+| | 59.97024 10.90595 | morjo via effbiai | | | | | | 2013\-11\-19 |
+| | 59.9418538 10.9157467 | Atluxity | | | | | | 2013\-11\-29 |
+| | 59.915294 10.840997 | lars_ | | | | | | 2014\-01\-07 |
+| | 59.912131 10.760622 | torbenhr | | | | | | 2014\-01\-09 |
+| | 59.937967 10.820133 | Kvisle | | | | | | 2014\-01\-22 |

@@ -1,0 +1,133 @@
+These switches ssh as well as a cisco rj45 serial interface for configuration.----
+37¤h1. Troubleshooting Network problems
+
+The documentation is never current, but can only get more up to date as you get closer to the problem. Check the configuration on the firewall.
+
+* /etc/network/interfaces
+* /etc/hosts
+* /etc/dnsmasq.conf
+* /etc/rc.firewall
+* /root/ADSL.txt
+* /root/switch_map_haus
+* [[switch]] configs on core, trunk, shoo and bord
+
+h2. Common problems
+
+Except for poor network performance, the Haus mostly suffers from power outages and user error.
+
+h3. Poor network performance
+
+The firewall script employs outbound QoS to provide fair service to all by throttling some service and blocking others from consuming bandwidth. This is called the Wunder Shaper. However, before fiddling with the script check:
+
+* the ISP might be throttling the connection due to an unpaid bill
+* tools like iptraf and tcpdump on the firewall to see what's consuming bandwidth
+* it might be a DoS, spam or virus on the network (which have happened before)
+* the physical limitations! Too many people using spotify and youtube on a single 18Mbit DSL link means *noone* can have good service.
+* your comprehension of traffic shaping on Linux!
+
+h3. ADSL router hang
+
+This is not so common, actually! But very often some misinformed person will try to reset the DSL router to get the Haus back online. This has caused problems before, but the people who do this enjoy privileges in the Haus. If anyone does this, find them and politely explain to them never to do this.
+
+Sometimes it might be necessary to power cycle the DSL router, but it should never be neccessary to reset it!
+
+h3. Power
+
+h4. Power outage
+
+Because the switch in Humla is so important, if the circut breaks in Humla a big part of the Haus will be offline. Check the circuit breaker at Humla.
+
+Check the fuses in the basement, or wait till the power comes back on. Then check for damaged equipment. If a switch isn't responding, check the cable first, then power cycle the switch.
+
+h4. Power spikes
+
+Sometimes a power spike won't take the Haus offline, but a powerspike will cause a switch failure. If a switch isn't responding, check the cable first, then power cycle the switch.
+
+h3. Rouge DHCP servers
+
+If someone plugs an WLAN router into the network with its LAN port, that network will suffer loss of connectivity as this WLAN router becomes a [rogue DHCP server].
+
+h4. Finding rogue APs
+
+To find the rogue AP, start from star. 
+
+# Use 'tcpdump \-nvl \-i eth1.10 arp or dhcp' and look for 192.168.1.1 addresses giving out DHCP leases. It may be a different address, but it won't be the 10.10.x.x\-ranges that star gives out. Substitute eth1.10 for the network that is having a problem.
+# Then, arping 192.168.1.1 \-I eth1.10 You should see replies from an address that should not exist on our network. Write down the MAC address. This is what you are looking for.
+# While keeping the ping going, pull a single cable out of the core switch.  Start with port 3 and work your way upward. If the arping is still listing new replies, plug the cable back in and try the next one.
+# If the arping is no longer responding, this is the cable you need to follow. Plug the cable back in its port and find the other end of this cable.
+# In the case the other end is a switch, repeat steps 3 and 4. Otherwise, the cable must lead to the AP or person responsible. Disable the AP.
+
+h4. Isolating rogue APs
+
+If you don't have the time to go tracing cables, rogue DHCP servers can be isolated on their own VLANs. Find the port on the switch that has the rogue DHCP server. Either it's a trunk port, in which case go to the next switch, otherwise put this port on its own VLAN, for instance the "isolation net" which is VLAN 42.
+
+h4. Killing rogue APs
+
+Sometimes the fastest way to fix the problem is wireless. Connect to the rogue AP and access its admin page. Use the default password, or hack it. Now disable DHCP and bridge the WAN and LAN interfaces. This way, the AP will be providing internet without interfering with the network.
+
+h3. Flooding
+
+There shouldn't be anymore floodings, but in the good old days, if it rained really really hard some drainage would back up and the basement would flood, knocking out circuit breakers, destroying equipment and making a whole big mess.
+
+The most efficient way to fix the problem is:
+
+* get Alexis to help you. Get more people. The More, the Merrier.
+* get an industrial vacuum cleaner (the Haus has one in Alexi's workshop)
+* suck up the water, empty the vacuum cleaner into a bucket, rinse, repeat.
+* get a drill\-driven water\-pump and some garden hose. Suck the water out of the server room.
+* suck out the rest of the water with the vacuum cleaner.
+
+The reason for the floods in the old days was unclear until it was discovered that Terje's sink drained into a sewage pipe access panel which Terje had opened for the purpose. When the drainage pressure was high enough, the pipe would overflow and flood the entire basement. The problem haunted us long after Terje passed away. Lasse and Kacper plugged this hole the summer of 2013, and removed the sink.----
+38¤h1. Components
+
+We stock a whole bunch of basic electronics components for use in projects. Most are available free of charge to members, while you can buy more costly components off Hackeriet at little above cost.
+
+Keeping an inventory is a rather tedious affair, but we shall make it simple: some components are "basic inventory" and if we run out, we shall order more.
+
+h2. Basic Inventory
+
+Free to use for paying members:
+
+* resistors, all sizes
+* capacitors, ceramic and electrolytic
+* diodes (zener and general purpose)
+* transistors
+* relays
+* sockets, connectors
+* LEDs
+* ATMEGA chips (like in the arduino)
+* linear chips (adders, 
+* Texas Instruments chips (the MSP430 series)
+* project boards
+
+
+h2. For a fee
+
+If you need a component off this list that Hackeriet has, you can get it \- in general for 10% above cost. Profit goes to hackeriet.
+
+* LCD displays
+* wifi, network, 3g and other shields
+* Arduino kits (400kr for a kit)
+* plain Arduinos
+* elwire
+* quality potmeters
+* breadboards
+* sensors
+
+h2. Ordering
+
+Most things, except for the Texas Instruments chips, are ordered from "Futurlec UK":http://futurlec.com/Components.shtml
+
+You can order 5 TI chip orders of 10 or less (that's 50 components!) free of charge by registering and ordering "free samples":https://commerce.ti.com/stores/servlet/SCSAMPLogon?storeId=10001&langId=\-1&catalogId=10002&reLogonURL=SCSAMPLogon&orderId=.&URL=OrderItemDisplayView 
+
+You are encouraged to order more samples than you need and leave the superfluous components at Hackeriet. 
+
+If some components are missing, please order the component now and get a refund from Hackeriet when the components arrive! Orders below kr200,\- aren't subject to customs and so it makes sense for us to make many small orders.
+
+h2. Funding drives
+
+What if you want to get something that is not here that others also might benefit from? Most of the [[Equipment]] at Hackeriet is either donated or privately owned and just kept at Hackeriet.
+
+If you want to get something real expensive, how about announcing on the mailinglist and the wiki that you would like to split the cost with anyone that is interested?
+
+

@@ -1,0 +1,74 @@
+----
+33Â¤h1. Materials
+
+Have a project but don't know where to source materials?
+
+Dumpster diving is fantastic in Oslo. Really nice materials and equipment is thrown away daily.
+A car or other mode of transport is a must, go around the back of offices and industrial sites in Alna, Sinsen, Storo, Økern etc.
+
+Street punks do loads of urban trekking and might know where to find the best sites for a particular material.
+
+A lot of projects can not be completed with material found in a typical Norwegian shopping mall. 
+
+Here is a list of stores that have been useful in past projects.
+
+h3. Electronic components
+
+Unfortunately, there aren't any electronics stores in Oslo worth their salt. What little there is (wires and circuit breakers) can be picked up at Clas Ohlson. For other things, you'll need to order online. Some places that we have ordered from before:
+
+* "Futurlec":http://futurlec.com
+* "Deal Extreme":http://dx.com
+* "Farnell":http://no.farnell.com
+
+h4. Request Samples
+
+We also suggest you request samples from "Texas Instruments":https://store.ti.com/, they have a lot of great components that can be had for free up for up to 10 samples each! Anything you don't use, leave with us at the Hackeriet Lab for others to use.
+
+h3. Paint
+
+Good deals on paint (up to 25% off if you mention Hackeriet or culture/non\-profit work):
+Flugger Farve Grønland
+
+h3. Assorted
+
+Many tools and materials are available for a nice price at these stores:
+Thaugland Trelast, Storo
+Torshov Bil, Storo
+Biltema, Alnabru
+Jula, Karihaugen
+
+If you want something beyond Biltema's selection,
+there are a number of good stores in Oslo, but they are hard to find. See below.
+
+h3. Hardware
+
+Good places to get proper tools, nuts, bolts, o\-rings, chemistry, welding equipment, gases:
+
+"Industrifokus Brobekk":http://www.tools.no/avdelinger/oslo\-brobekk/ (big hardware department! best for nuts and bolts, power tools and workwear \- ie 100kr for 10pak of work gloves )
+"Tess":http://tess.no/tess\-servicesenter/tess\-ost\-as (great for hoses, welding, gases but also gromets, o\-rings,  gaskets and other machine shop materials)
+"Tools Kalbakken":http://www.tools.no/avdelinger/oslo\-kalbakken/ (power tools, biggest assortment of heavy lugs )
+Würth Oslo \- Økern, Lørenveien 68, Telefon: 464 01 500 (chemistry, tools, nuts and bolts. will sell only in 100packs, expensive, quality)
+
+h3. Metal
+
+Metal works, alu and steel tubes, sheets etc:
+"Castor Mekaniske Verksted":https://www.google.com/maps/place/Castor+Mekaniske+AS/@59.946912,10.87439,17z/data=!3m1!4b1!4m2!3m1!1s0x46416ffd0b3e4cef:0xdc02146874519835, tel 22802530, Stanseveien 14
+
+Welding and mecanical construction, about 200m from Hackeriet:
+"Autogen AS":http://autogen.no/
+
+h3. Cleaning
+
+Rent floor cleaning machines at:
+Karcher (about 3000kr for a week)
+
+h3. Metal recycling
+
+"Metallco":http://www.metallco.com/ will buy any metals (iron, steel etc) and pays well for aluminium and especially copper. They pay 35 øre per kilo "el\-avfall" and 2kr per kilo of "mixed metals". Sorted pure metal, especially copper, fetches far higher prices per kilo.
+
+The accept private costumers but if you are mva\-registered, they can do the moms dance with you as well.
+
+h3. Seals and technics
+
+"Otto Olsen, Lillestrøm":http://www.oo.no/?CatID=1187
+They have a wealth of specialized information and materials. Will give technical answers over the phone about their selection even if you don't have a customer account. 

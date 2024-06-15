@@ -1,0 +1,57 @@
+We simply don't have the spacetime for it.----
+40¤h1. Tools
+
+h2. General tools
+
+These are the basic tools that we keep close at hand.
+
+Location: drawers, corner of the main space.
+
+* Hammer
+* assorted screwdrivers
+* battery\-powered drill
+* Angle grinder
+* Duct tape
+* cable ties
+* glue guns (2 large, 1 small)
+* cable crimpers (3x)
+* cable ties
+* work gloves
+* tacker "stiftepistol"
+* multimeter
+* wire cutters
+* pliers
+
+h2. Carpentry and Assorted
+
+Location: the Mad Science Lab backroom closets
+
+* Belt sander
+* air compressor
+* Two large and one small glue gun
+* Saw
+* Silkscreen
+* Paper cutter tool of finger doom
+
+h2. Electronics tools
+
+Location: big hacker closet in the lab
+
+* Soldering iron
+* Hot air soldering station
+* oscilloscope
+* JTAG ttl cables
+
+h2. Metal Shop Tools
+
+Location: The metal shop is actually the [[HMK:"Hausmania Motorcycle Klubb"]], directly below the space, where some of our members are affiliated. They can provide access to the following tools:
+
+* Grind stones
+* MIG welder
+* Sand blaster
+* Drill press
+* compressed air
+* TOOLS		many mechanical and compressed air tools available
+
+Members of HMK can get you access to this equipment, talk to comotion or Mons. You should get your own [[materials]] and expect to pay a little for gas & power if your doing a bigger project.
+

@@ -1,0 +1,15 @@
+* Hackeriet, http://www.hackeriet.no/----
+18¤h1. Hardware suggestions
+
+TL\-WDR3600 with OpenWRT ("setup":https://github.com/petterreinholdtsen/meshfx\-node/tree/master/openwrt/config\-TL\-WDR3600)
+http://www.tp\-link.com/en/products/details/?model=TL\-WDR3600
+
+TL\-MR3040 with OpenWRT ("setup":https://github.com/petterreinholdtsen/meshfx\-node/tree/master/openwrt/config\-TL\-MR3040)
+http://www.tp\-link.com/en/products/details/?model=TL\-MR3040
+
+Raspberry Pi + USB wlan card with Debian
+http://people.skolelinux.org/pere/blog/A_Raspberry_Pi_based_batman_adv_Mesh_network_node.html
+
+Notebook PC with wlan and Debian
+
+

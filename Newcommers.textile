@@ -1,0 +1,93 @@
+----
+47¤h1. Hackeriet's Newcomers Guide
+
+Hello and welcome newcomer & aspiring member. This is a short guide to how Hackeriet works and what you can do to get familiar with us.
+
+a few quick tips:
+
+communicate
+
+if you have an idea, or if you are doing something, tell the rest! just giving a quick description on irc or in the space ensures that other people can get interested, to give kudos or to help out.
+
+h3. core values
+
+Hackeriet is an independent, self\-sustaining community first and foremost. Our members are diverse and inclusive and care about the community, its neighbours and society.
+
+h3. mailing list
+
+Introduce yourself on the mailing list. Perhaps there is some activity you would like to do that you want to engage other people in?
+
+dare to make mistakes
+
+Fail, fail and fail again, it's the best way to learn. Making mistakes, sometimes spectacularily so, is how we arrive at new and interesting results.
+
+be awesome and excellent to one another
+
+Being a good listener, and a nice and inclusive person in general is considered doubleplusgood.
+
+h2. visit hackeriet
+
+Getting into Hackeriet can sometimes be difficult, but doesn't have to be. The first thing to do is to come visit us.
+
+The best way to introduce yourself is to tell us what you're interested in and ask around about what other people are doing.
+
+h3. online
+
+Visiting online is as simple as dropping into our channel on irc://chat.eufreenode.net/#oslohackerspace. Say
+in real life
+
+Are we in?
+
+To get there, you need to check if someone is in.
+
+Our members can be at the space at any time of day or night, but we have open Tuesdays afer 1800 and sometimes other days as well, which are usually announced on Meetup.
+
+If there is an announced meetup, or if it's Tuesday evening, it's usually safe to assume that someone is there.
+
+Getting there
+
+To find the space, go to Hausmannsgate 34 and enter through the silver metal door of Hausmania. This door is usually locked, even on open days, so you can use the virtual doorbell to have someone open for you.
+
+Get a [[Fadder]]
+
+Getting a hackeriet fadder, or mentor, is the best way to learn to know Hackeriet from the inside. A hackeriet member can show you around and help you get your bearings, as well as introduce you to our [[routines]].
+
+h3. adopt\-a\-project
+
+h3. start a project
+
+If you have an idea for a project, Hackeriet is a great place to build it. We stock many components, we get a lot of donated hardware, we know where to find and materials, and people can usually point you in the right direction.
+
+learning by participating
+
+If you are looking for challenges, Hackeriet has many ongoing projects that you can pick up and contribute to. A Hackeriet project is a great way to learn about anything from electronics, networking or programming to working with metals or radio, sound engineering or even organizing parties.
+
+digital aids
+
+h3. The Pad
+
+A pad is a multiplayer notepad that lets many people collaborate in realtime on a text document.
+
+Projects are often drafted in the hackeriet pad
+
+Anyone can use this pad to collaborate.
+
+h3. Project tracker
+
+Hackeriet projects are tracked and documented in the hackeriet redmine. This is where you can find information on ongoing projects and events.
+
+As an aspiring member, it's a good idea to sign up for an account. You can also log in with facebook or any other OpenID account.
+
+As with most Hackeriet things, you need to ask a full member to add you to the hackeriet group once you have signed up.
+
+A good place to start to get your bearings is the hackeriet services overview.
+
+Due to the way SSL works, the name in the url bar will switch to https://procrastinate.delta9.pl. This is normal.
+
+h3. host a talk or workshop
+
+Either you have a topic you would like to share with others, or you know someone who you would like to help organize a talk or workshop, Hackeriet is the perfect space for it!
+
+h3. Pay membership dues
+
+The cost of hacking is never zero. Paying membership means you contribute to paying Hackeriets rent as well as the cost of shared components, coffee and other essentials.

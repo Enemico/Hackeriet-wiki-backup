@@ -1,0 +1,61 @@
+Hackeriet will appreciate it when you pitch it, set it up and manage it.----
+35¤h1. Sound system
+
+The [[Hackeriet:]]/[[Humla:]] sound system is a 5000W PA mounted in a half\-size rack. It consists of a
+* 16\-channel mixer,
+* 16 channel multicable, 
+* equalizer, 
+* filter, 
+* two amplifiers and
+* some random equipment. 
+* two passive subwoofers
+* two tops
+* two mid\-range speakers, currently inactive
+* an oscilloscope and a vector scope
+
+In addition, we have several DI boxes, and some elements for the backline.
+<pre>
+
+
+ +                                                                       
+|                                                                       
+| from Mixer                                                                      
+|                                                                       
+|                           +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+     
+|                           |                                     |     
+|                   +\-\-\-\-\-> |     FULL RANGE AMPLIFIER            |     
+|                   |       |                                     |     
+|                   |       |                                     |     
+|                   |       +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+     
+|                   |       |                                     |     
+|                   | +\-\-\-> |    BASS AMPLIFIER                   |     
+|                   | |     |                                     |     
+|                   | |     |                                     |     
+|                   | |     +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+     
+|                   +\-+\-\-\-\-\-+                                     |     
+|                           |     FILTER                          <\-\-\-\-+
+|                           +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+    |
+|                           |                                     |    |
+|                           |    EQUALIZER                        +\-\-\-\-+
++\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-> |                                     |     
+                            |                                     |     
+                            +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+     
+                            |                                     |     
+                            |                                     |     
+                            |    VECTOR SCOPE AND OSCILLOSCOPE    |     
+                            |                                     |     
+                            +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+     
+                            |                                     |     
+                            |                                     |     
+                            |                                     |     
+                            |                                     |     
+                            |                                     |     
+                            |                                     |     
+                            |           RANDOM CRAP               |     
+                            |                                     |     
+                            |                                     |     
+                            |                                     |     
+                            |                                     |     
+                            |                                     |     
+                            +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+     
+

@@ -1,0 +1,97 @@
+</pre>----
+36¤h1. Switch Configuration
+
+h2. Git repo
+
+We have set up a git repo with all the maps and files needed to run the network. It can be found on github at :
+
+https://github.com/hackeriet/network/
+
+h2. Switch map
+
+We currently maintain the most up\-to\-date switch map at
+*star:/root/network/switch_map_haus*, which can also be found in the git repo
+
+To make life easier, label all new cabling! Try to label old cabling too, if you find out where it leads.
+
+
+h2. Configuring switches
+
+Switches need stitches!
+
+Configuring the switches is a simple matter of logging in to the respective switches admin interface and setting things up there.
+
+The only things you need to know beforehand is simple IP networking.
+
+h3. Things to do with switches:
+
+* adding a VLAN
+* adding a port to a VLAN
+* moving a port to a different VLAN
+* setting up a SPAN port
+
+h3. VLAN
+
+A virtual LAN, or a virtual physical separation of networks.
+Stuff on the same VLAN acts as if it was on the same dumb switch.
+
+A port can be assigned to several VLANs, which means it can be a member of one or more physical networks. These VLANs can be *tagged* or *untagged*. 
+
+Tagged mode means the equipment at the other end must also speak VLAN. Typical for trunked lines
+between switches and on routers. The packets arrive with a VLAN header and equipment is expected to send a VLAN header before each packet.
+
+Untagged mode means the network packets arrive at the port as if it were a dumb switch port on that VLAN.
+
+If you have several untagged VLANs on that port, you can't necessarily tell which VLAN they came from.
+
+h3. PVID
+
+This is the "default" VLAN id that the switch will tag your packets with on that port, if they come in untagged. Generally, if you want some equipment connected to port X on the switch to be on VLAN Y, you have to set both PVID and VLAN to Y.
+
+h3. Dell PowerConnect
+
+* trunk
+* shoo
+* lab
+* hsw6
+
+These switches are primarily configured through their web interfaces accessible through your browser. They also have a telnet interface, and a serial interface.
+
+<pre>
+# add '?' to commands to figure out arguments
+show interface ?
+
+# examine all interfaces
+show interface status
+
+# look at all switchports 
+show interface switchport
+
+# look at switchport 19
+show interface switchport ethernet 1/19
+
+# configure mode
+configure
+# vlan configure mode
+vlan database
+
+# save config
+copy running\-config startup\-config
+
+# examine startup config
+show startup\-config
+
+</pre>
+h3. eXtreme Networks
+
+* hgw
+* hsw0
+
+
+These switches have a telnet interface, configuration examples can be found in the git repo
+
+
+h3. Cisco Switches
+
+* hole\-sw
+

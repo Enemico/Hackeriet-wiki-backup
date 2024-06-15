@@ -1,0 +1,25 @@
+* /usr/local/bin/door.sh----
+13¤h1. Construction
+
+The strike lock needs 5V 1A open the lock, (some strike locks need 12V),
+therefore we need a relay\-transistor circuit like this:
+
+http://www.flickr.com/photos/anachrocomputer/3242387876/in/pool\-make
+http://makezine.com/2009/02/02/connecting\-a\-relay\-to\-arduino/
+
+all wired with common ground.
+Furthermore, the RFID reader has a led/buzzer function which we hooked directly to the relay output.
+
+h2. Further work:
+
+<pre>
+{
+  5V / strike lock signal         tx
+ 12V / rfid reader power          tx
+ GND / common ground              tx
+  D0 / rfid reader data0          rx
+  D1 / rfid reader data1          rx
+ LED / led indicator   (optional) tx
+ BUZZ/ sound indicator (optional) tx
+}
+</pre>

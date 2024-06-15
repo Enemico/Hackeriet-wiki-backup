@@ -1,0 +1,30 @@
+Their selection is available through TESS and TOOLS for private buyers.----
+34¤h1. Services
+
+Hackeriet has a number of services for members. If you discover something is broken, please try to fix it. If you can't by virtue of not having access, a ping on IRC or by email is appreciated. 
+
+Please make sure you contact the right person.
+
+* http://hackeriet.no/ \- the website/wiki. imarcustheis
+* http://projects.hackeriet.no/ \- the Redmine. comotion
+* http://pad.hackeriet.no/ \- our pad. krav
+* http://door.hackeriet.no/ \- the doorbell. krav
+* http://brus.hackeriet.no/ \- the mate machine. krav
+* zerocool \- the zerver. lafa,comotion. put your files here
+* blade.hackeriet.no \- zerocool sync, pxe and other hackeriet superserver. scn,comotion
+* [[BBS]] \- Lord Nikon our BBS, shell & email server. krav,atluxity,sjn,lafa,xtal,scn,bsb,aevin,comotion
+* [[tty23]] \- tty\-to\-linux\-on\-irc. pippin & comotion
+* urlie \- irc karma and url bot. sjn
+* twsrs \- That's What She Really Said bot. fnords
+* the door lock: Please see [[systemdoorlock:]]
+* the hackeriet & haus network, please see [[hausnet:]]
+* Hackeriet DNS: comotion, scn, krav.
+* PA, mixer, recording rig: see [[Sound system]].
+* Meetup: Atluxity
+* Twitter: sjn
+* Facebook: sub
+* IRC channel #oslohackerspace: comotion, siddd
+* mailinglist: comotion, siddd
+* [[Boot Server]]
+
+Hackeriet services are minimalistic in that we set up and manage what we need. If you see that we need a service,

@@ -1,0 +1,125 @@
+Bitcoin donations welcome: 1EDwgp7zixNAbvhyqWJjDHDAMTfmf8BvDy----
+6Â¤h1. Arenautvikling
+
+en oppsummering av søknaden
+
+scener: flerbrukshallen, utescenen, kulturkafé, konserthall
+
+* låsbar bar i bakgården.
+* toaletter i bakgården, flerbrukssalen, kulturkaféen
+* gulv i toalettbrakken
+* ventilasjon flerbruks/ kafe
+* backstage/flerbruks
+* oppgradere baren
+* scene kulturkafeen
+* fastmontert pa bakgården
+* 50% stilling prosjektkoord.
+* rehab av tak i atlierbygg
+* utskifte av etasjeskille, soppsanering
+* brannceller
+* tak hovedbygg
+* rehab konsert\- og skatehall
+*koordinering av dugnadsarbeid, vedlikehold
+
+h2. framdriftsplan
+
+sommer 2010 prøvedrift utescene
+høst 2010 prosjekt drift flerbrukssal
+høst 2010 forprosjekt konserthall
+vår 2011 org for drift scener
+vår 2011 finansiering konserthall
+sommer 2011 fast drift utescene
+høst 2011 åpning kulturkafe
+høst 2011 fast drift flerbruks
+høst 2011 byggestart konserthall
+høst 2012 ferdigstilt konserthall----
+7Â¤h1. Nettlaug Wiki
+
+h2. Network monitoring
+
+"Smokeping for latency measurements":https://hackeriet.no/smokeping?target=hackeriet
+"Munin for system statistics":https://hackeriet.no/munin
+
+h2. FAQ
+
+
+h3. What is it?
+
+Colocation of servers at our shared facility, with a fibre uplink to the internet in the works, sharing the costs of the link and the dream of an unrestricted net.
+
+h3. What's the use policy?
+
+|_. network is |_. says YES to |_. says NO to |
+| hacker culture | free culture | fascism |
+| communication | anonymity| pedobear |
+| independence | privacy | hate |
+| chaos | | spam
+| data love ||
+
+
+h3. What about costs?
+
+Sharing is caring, and we are sharing all the costs. The more members we have, the smaller the costs for members.
+The monthly price will include power costs, which have been factored in.
+At the moment it is 350kr/month for 1U of server space.
+
+h3. Where is it?
+
+Hausmania
+
+h3. Who's responsible for the link?
+
+The legal responsibility rests on the Hackeriet board members. When you become a member, you will share in that responsibility. The board has final say on decisions pertaining to the network, usage policy and connected hosts.
+
+h3. Who will have physical access to the datacenter?
+
+Hackeriet members involved in the project that are trusted by other members. It is important that members get to know each other well, and that certain routines are followed to avoid tripping over cables or messing up switches.
+
+h3. Who is the provider?
+
+Blix Solutions
+
+h3. What are the bandwidth restrictions?
+
+The link is 1Gbit, and we will have 100Mbit up/down metered to our line. We know our provider, and we will have to start consuming a lot of bandwidth for them to care.
+
+h3. What equipment?
+
+We have some servers for rental, but you can also rack your own machines.
+
+h3. I heard rumors about a flood..?
+
+Yes, we had problems with mystery flooding, which were caused by an improperly secured drain. After securing the drain the server rooms have been dry.
+
+h3. What about power stability?
+
+Power has recently been upgraded in the building, but we can't guarantee there won't be power cuts. An UPS or two would be great.
+
+h3. What about cooling?
+
+So far the temperature hasn't been bothersome, but we have an airconditioner in standby if we should need it.
+
+h3. What about hosted Raspberry PI's?
+
+Seems to very hot rite now, and we should be able to cover some of our costs by offering hosted raspberry pi's to the world at large.
+
+h3. Link price adjustment
+
+The price per unit is adjusted by the Hackeriet board every 6 months.
+
+h3. Cancellation
+
+If you want to cancel your unit rental, there is a 3 month cancellation period, counted from the month after notice is given.
+
+h3. How's invoicing gonna work?
+
+Billing will be invoiced 3 months at a time.
+
+Sjekk [[Fakturering]]
+
+h2. Who's liable for the equipment?
+
+The owner of the equipment.
+
+h2. Network List
+

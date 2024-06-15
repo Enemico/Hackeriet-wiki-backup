@@ -1,0 +1,28 @@
+----
+46Â¤h1. Backbone
+
+Vi trenger en måte å kommunisere på hva Hackeriet er, hva som kan gjøres her og en enkel måte å gjøre de tingene.
+
+Hvordan kan vi organisere Hackeriet slik at når noen kommer for å gjøre Y og vi vil gjøre Y men ikke gjør det enda, så kan projekt Y passe inn i vår struktur?
+
+Bærebjelkene for infrastruktur er:
+
+* økonomi \- medlemskap, leie og vedlikehold
+* kommunikasjon: propaganda promo komms \- meetup face twat mailinglist
+* booking \- kalender, hva skjer når, hvor.
+
+medlemmer er viktige. Rekruttering er en naturlig effekt av god kommunikasjon samt tydelige verdier for medlemmene.
+
+Hvert hackeriet\-projekt bør ha et budsjett. Overskudd går til Hackeriet, mens underskudd er begrenset nedad til investeringer fra medlemmene som vil delta i projektet.
+
+Projekter er også følgende:
+
+* lab
+* nett
+* arrangement
+* bar
+* foredrag/workshops
+
+Hvert projekt har egen økonomi, egne mål og egne ambisjoner.
+Hvert projekt aspirerer til å bli infrastruktur for å etablere seg, men bidrar også til leie og bruker felles kommunikasjonskanaler.
+

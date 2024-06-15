@@ -1,0 +1,139 @@
+
+h2. Early History
+
+November 14 and 15th 2009 Free Society Conference and Nordic Summit (FSCONS) was held in IT University, University of Gothenburg, Sweden. It was a weekend conference with 4 tracks. 10:45 on the Saturday, in the room "Torg 2", "Karin Kosina (aka kyrah)":https://twitter.com/kyrah held a presentation with the title ""Hackerspaces FTW!":https://fscons.org/2009/node/49". In the audience was several people from Oslo. This talk inspired ambitions to start something in Oslo.
+
+The talk as presented in the schedule:
+
+<pre><code>
+Hackerspaces are real-life meeting places for creative people to get together to share knowledge,
+explore, learn, tinker with new technologies, socialise, have ideas and make them happen. Our
+vision is to enable people to stop being consumers and start being creators.
+
+Online collaboration is a Good Thing, but there is a very special dynamic that happens when people
+from different backgrounds get together in a physical space. There is a global movement to establish
+such spaces (see http://hackerspaces.org) and to date there are over 200 of them world-wide!
+
+I am going to present the vision of the hackerspaces movement and its social, technological,
+political and economical potential. I will also speak about our experiencing in building up the
+Metalab (our hackerspace in Vienna, which has been operational for over 3 years).
+</code></pre>
+
+The talk was even "recorded and is still available on Vimeo":https://vimeo.com/8689838.
+
+After this presentation, people pooled their contact network and gathered in an IRC channel on Freenode, #oslohackerspace, this has been kept the channel ever since. A move was at one time discussed, but deemed unproductive.
+
+Also, a mailing-list via google-groups was created, called oslo-hackerspace@googlegroups.com.
+
+A "wiki was also created":https://web.archive.org/web/20091127152411/http://hackerspaces.means.no/.
+
+A founding meeting for an organisation with the name of Makers was held on the IRC channel 2009-12-17.
+This is an extract from the bylaws of Makers as set by the founding meeting:
+
+<pre><code># Vedtekter for Makers
+
+§ 1 Foreningens navn
+
+Foreningens navn er Makers og den ble stiftet 2009-12-17.
+
+§ 2 Formål
+
+Makers' formål er å:
+
+- Være et sted der folk kan gå for å leke med teknologi, skape og
+ samarbeide, i Oslo
+- Være en partipolitisk og teknologinøytral organisasjon som fremmer
+ kreativitet og åpenhetskultur.
+- Være en egalitær organisasjon der avgjørelser tas av de som er
+ villige til å gjøre jobben.
+</code></pre>
+
+More about this is possible to read in the [[vedtekter]] section of Hackeriet wiki, still faithful to the original for makers, despite the new name.
+
+Marcus Ramberg, then director and lead developer of Nordaaker, graciously made conference rooms available for the upstarting hackerspace at "Nordaaker Coworking":https://web.archive.org/web/20100202024428/http://nordaaker.no/wiki/Coworking. A physical startup meeting was organized 2010-04-21.
+
+So up to this point, the organization identified itself as "Makers.no":https://web.archive.org/web/20101219025656/http://makers.no/
+
+But as the name itself of the IRC channel expressed, the desire to have a stable place offering more opportunities brought the [[Humla]] initiative in the picture. Humla had such place and an interest in the hacker culture (the "Linuxbrigaden" subgroup managed the network), and since Humla had lost a core group identifying with the space itself, the Linuxbrigaden hackers popped up in the IRC #oslohackerspace channel. Part of the challenge #oslohackerspace was facing in the search for a stable location was also of financial nature, because renting a space in the center of town was expensive. Humla at that time had different groups using the space, as:
+
+"Bytopia":https://bytopia.no
+"Motmakt":https://web.archive.org/web/20110724181746/http://motmakt.no/
+"Oslo Queer":https://osloqueer.blogspot.com/
+
+with a certain overlap of members, and a pretty cheap rent agreement. Regardless of that Humla as a whole experienced a certain lack of responsibility from the aforementioned groups in the maintenance of the space. Makers.no representatives were then invited to visit Humla and possibly to use it as a shared space together with the other groups, at the beginning for free.
+
+<pre>
+[oslospace] hackspace - location available
+Thu Oct 28 23:25:59 CEST 2010
+
+Hi all!
+Hei alle,
+
+for å ikke være ekskluderende tar jeg dette på engelsk:
+
+let me introduce myself: I am one of a few that run the hacker group
+Linuxbrigaden at Humla, in the venerable house of Hausmania. I'm also
+a computer professional and budding physicist, be that as it may.
+
+Our thing at Linuxbrigaden so far has been helping spread the hackish
+word, hosting installfests, teaching sessions and "alternative tech"
+seminars/hackathons at Humla. We've had a couple of deathmatches. Only
+good can come of getting hackish folk to meet IRL, we believe.
+We were funded this year by Frifond to do events.
+
+It was recently suggested that Humla would be a good place for oslo
+hacker space, currently looking for room to let.
+
+We have some space here :-)
+There is a coffee maker, some terminals and chairs, a gigabit
+backbone, a gateway and a lot of infrastructure. A locked server room
+full of screens, and a steady supply of surplus hardware from last
+year. A lot of switches. An oscilloscope and a vector scope that seem
+to power on. Lots of wires and odd ends. A bar and a fridge. One of
+the nicest PA's around. Enough gear to be able to give away desktops
+to anyone who wants to learn how to build them.
+Did I mention the coffee maker?
+
+Linuxbrigaden is also an umbrella that provides internet access, free
+and open wifi and infrastructure to the greater Hausmania Kulturhus
+including galleries, workshops and theater. We're not around much but
+we try and keep our servers going.
+
+We have plenty of real, impactful projects for the novice and advanced
+hacker alike, and we promote a playful environment of constant
+learning where there is room for error, for as you might know one
+learns best from one's own mistakes.
+
+We have interesting neighbours who don't mind noise at odd hours.
+
+Humla started out as an infoshop and cafe but it is a little too far
+from "the street" to support itself in this manner, so it's currently
+a place for meets, seminars and concerts.
+
+We are not the only ones using the space, amongst others Bytopia and
+Motmakt meet here, as do Oslo Queer and Oslo Straight Edge concerts,
+in addition Humla lets the place to anyone who can abide by our
+manifest (featured on the web page[1]) for festivals and other
+arrangements.
+
+We've had some chats about Hackspaces before, some even centered
+around the hackspaces design patterns[2]. Some of us are going to the
+Open Congress in Gothenburg next weekend, and there has been talk of a
+c3 peace mission and even a LAN party.
+
+If the interest is there, I suggest we have a Hacktivity nite soonish,
+mid November?
+What do you think, how should we proceed?
+
+Cheers,
+  0K
+</pre>
+
+h3. The merge, or "all your bases belong to us"
+
+The Humla hackers saw in #oslohackerspace the opportunity of revamping the techie spirit of Humla that had somehow got lost in other initiatives that did not have the same focus. The political nature of the Humla project did not scare the hackers from Makers.no, partially because the space was relatively little used, and partially because Humla had control of the whole Hausmania network infrastructure, and was a space that had originally been designed by hackers. Also the situation was favourable for a new organization: there was time to get settled and not be fronted with the need for a solid member base and good finances, while having access to many resources and the freedom to control them without too much responsibility. But there was a certain amount of skepticism around a space with such a strong political identity, in a building with such a different attitude than the one of the introverted nerd, or the academical cryptographer. Some friction had to be taken into account.
+
+There was a clear difference in thinking about structure and organization too, as Humla reclaimed a flat structured organization without leaders and without a clear delegation of responsibilities. On the other hand Humla barely managed to make ends meet with paying the rent and keeping the space minimally functional. Humla was actually not Humla anymore, since there was no group in the space that actually identified with that name. Humla had become an umbrella for different politically active groups that used the space for meetings and planning of political actions that took place elsewhere. None of the groups using the space at the time did actually paid their share of the rent regularly, and no member of any group using the space was asked to contribute economically either. In some way the ideological integrity of the Humla heritage had become so heavy, and the attitude in some way so intellectual that the organization did not manage to get down to earth and pay the rent, or mantain the space consistently. While the hackers from makers.no started to take control of the infrastructure and increasingly use the space, the other groups happily delegated their responsibilities, mostly because of the nature of their activities had become detached from that physical space. The friction between the new group of hackers and the other projects existed, and the coexistance in the space wasn't always easy, but really no other group was interested in the very room, except the hackers. It was just a matter of time.
+
+The 29th of June 2011, Hackeriet got its name.
+

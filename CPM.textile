@@ -1,0 +1,21 @@
+----
+64¤h1. CPM
+
+Some software or services do not make offer the personal key\-based authentication we prefer.
+Hackeriets non\-personal passwords are stored in a shared password manager.
+
+To get access, you need:
+# CPM software installed (packages for linux, source compile on mac)
+# an invitation to get access from an existing password repo member, with repo url.
+# a published GPG key
+# send your SSH public key to the member that has invited you
+
+Once you have all of these things, you can clone the password repo and make use of it as described in
+"decentralized CPM":https://github.com/comotion/cpm/wiki/Revision\-control#using\-decentralized\-cpm.
+
+h2. Do all hackeriet members get access to the passwords?
+
+Access is directly linked to trust. In general, three criteria have to be filled before you can get access to the password database:
+
+# you are a hackeriet organizer or active member
+# you need several different passwords to maintain one or more services

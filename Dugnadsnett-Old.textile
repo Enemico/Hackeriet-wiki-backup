@@ -1,0 +1,57 @@
+----
+16Â¤h1. Vi bygger dugnadsnett for alle
+
+"Foreningen NUUG":http://www.nuug.no/ og hackerspacet "Hackeriet":http://www.hackeriet.no/ har gått sammen om å lage et dugnadsnett.  Først ut er Oslo, der vi gikk igang 2013\-11\-13 med å samle interesserte og å bygge ut noder.  Kart over planlagte og eksisterende noder finnes på "github":https://github.com/petterreinholdtsen/meshfx\-node/blob/master/oslo\-nodes.geojson .  Gi beskjed på IRC om du vil være med og hvor du vil sette opp node, slik at folk i nærheten av hverandre kan finne hverandre.  Du trenger ikke en operativ node for å melde din interesse.  Målet er nå at folk skal komme igang sammen med noen i nærheten, og slik skaffe seg erfaring med mesh\-teknologi.
+
+ * [[2013\-11\-13\-workshop|Annonsering av mesh\-verksted 2013\-11\-28]] \- "NUUG\-nyhet":http://www.nuug.no/news/Bli_med___bygge_dugnadsnett_for_alle_i_Oslo.shtml , "Meetup\-event":http://www.meetup.com/hackeriet/events/150705942/ og "Facebook\-event":https://www.facebook.com/events/630954690276590/ .
+
+ * [[Hardware|Forslag til maskinvare en kan bruke]]
+
+ * "Epostliste dugnadsnett (at) nuug.no":http://lists.nuug.no/mailman/listinfo/dugnadsnett
+
+ * "IRC\-kanal (#dugnadsnett.no på irc.freenode.net":irc://irc.freenode.net/#dugnadsnett.no
+
+ * [[Nodes|Liste over noder]]
+
+Mesh\-nettet bruker batman\-adv som teknologi og wlan som spredernett, på både 2.4GHz og 5GHz.  Prosjektnavnet er 'Dugnadsnett for alle', og offisielt nettsted er http://www.dugnadsnett.no/ . Før 2013\-11\-19 ble følgende oppsett av wlan 2.4GHz brukt (historiske årsaker):
+
+* ESSID meshfx@hackeriet
+* CELLID 02:BA:00:00:00:01
+* CHANNEL 11
+* FREQUENCY 2462
+
+Fra og med 2013\-11\-19 brukes følgende oppsett for wlan 2.4GHz:
+
+* ESSID dugnadsnett.no
+* CELLID 02:BA:00:00:00:01
+* CHANNEL 6
+* FREQUENCY 2437
+
+Det er er ikke valgt frekvens og Cell ID for 5 GHz.
+
+Stikk innom oss på IRC, #nuug på irc.freenode.net.----
+17Â¤h1. Bli med å bygge dugnadsnett for alle i Oslo
+
+Hva trengs for å lage datanett uten sentral styring og kontroll? Hvordan kan en lage sitt eget telefonselskap i nabolaget? Hvordan har Freifunk og Athens Wireless Metropolitan Network klart å skaffe flere tusen mennesker Internett\-tilgang nesten kostnadsfritt? Alt dette og mere til kan en lære om på foreningen NUUG og hackerspacet Hackeriets verksted om meshnett (gitternett?).
+
+NUUG og Hackeriet tar med dette initiativ til å bygge et dugnadsdrevet meshnett i Oslo og inviterer til verksted for å lære å sette opp din egen meshnode. Hva er et meshnettverk? Et meshnettverk er et datanettverk som automatisk styrer ruting av pakker mellom repeater\-stasjoner/noder og automatisk håndterer at slike noder kommer og går. Slike mesh\-nettverk kan f.eks. brukes til å lage sitt eget telefonnettverk eller et landsbydatanett eller sende meldinger mellom folk i med nabolaget. Det er en spesielt god løsning når mobilbasestasjoner faller ut ved naturkatastrofer og utenfor dekningsområdene. Det er ingen som har sentral kontroll over et slikt nettverk, slik at det blir vanskeligere for aktører à la NSA å avlytte. Meshnett er i bruk flere steder i verden, og mange har der oppdaget at de kan få bedre og billigere Internett\-tilgang ved å gå sammen om å dele en felles forbindelse ut på Internett via mesh\-nettverk. I første omgang er det ikke fokus på Internet\-tilgang via mesh\-nett, men samtrafikk mellom deltagerne i mesh\-nettverket.
+
+* Dato: torsdag 2013\-11\-28
+* Tidspunkt: 18:00\-21:00
+* Sted: Hackeriet, Hausmania, Hausmannsgate 34, Oslo, http://www.openstreetmap.org/?mlat=59.91911&mlon=10.75207#map=19/59.91911/10.75207
+
+Oslonettet er basert på teknologien batman\-adv, som gir et lag\-2\-nett (ala ethernet) som en så kan bruke til IPv4 eller IPv6\-trafikk, eller direkte som ethernet\-trafikk. Det vil også bli litt testing av Serval\-prosjektets telefoniløsning, som gjør Android\-telefoner om til mesh\-noder som kan ringe til hverandre via enten mesh\-noder eller andre smarttelefoner. Det er spesielt nyttig i områder uten mobildekning, eller der mobil infrastruktur er ute av drift. Ta med enten en Linux\-maskin, f.eks. en Raspberry Pi eller en bærbar med wlan\-støtte, eller nettutstyr støttet av openwrt og nyere Linux\-kjerner (f.eks. TP\-Link WDR3600 eller TP\-Link MR3040), og møt opp for å se hvordan vi kan få flere mesh\-noder på Oslo\-kartet. Når du drar hjem håper vi du har en fungerende mesh\-node som kan bidra til å bygge ut dugnadsnettet for alle i Oslo.
+
+Hvis noen vet om andre dugnadsbaserte mesh\-nettverk i Oslo, så er vi interesserte i å samarbeide om å lage et felles mesh\-nett i stedet for flere mindre. Vi er kjent med to prosjekter, Freifunk Oslo og Meshfx som har hatt aktivitet, men begge disse prosjektene ser ut til å være lagt på is. Stikk gjerne innom #nuug på freenode om du ønsker å bidra til dugnaden.
+
+Aktuelle lenker:
+
+* How to Keep the NSA Out of Your Computer, http://www.motherjones.com/politics/2013/08/mesh\-internet\-privacy\-nsa\-isp
+* ISOC Medlemsmøte: Er personvern på internett mulig? Privatliv på et overvåket nett, https://www.youtube.com/watch?v=ZUsIXvDD_Vg
+* Hackeriets prosjektside for dugnadsnett for alle i Oslo, https://procrastinate.delta9.pl/projects/meshfx
+* Kart over aktive og planlagte mesh\-noder \- send inn patch via github hvis du vil være med, https://github.com/petterreinholdtsen/meshfx\-node/blob/master/oslo\-nodes.geojson
+* List of wireless community networks by region, http://en.wikipedia.org/wiki/List_of_wireless_community_networks_by_region
+* Servalprosjektet \- IP\-telefoni uten infrastruktur, http://www.servalproject.org/
+* OpenWRT\-prosjektet, http://www.openwrt.org/
+* CeroWRT\-prosjektet, http://www.bufferbloat.net/projects/cerowrt
+* NUUG, http://www.nuug.no/

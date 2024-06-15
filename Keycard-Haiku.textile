@@ -1,0 +1,28 @@
+----
+10¤h1. Specification
+
+Let me try a spec:
+
+A keycard has a creation date
+when it was first seen by the system, 
+and an ID identifiying the card uniquely.
+
+Some users shall have keycards,
+keycards to open locks,
+locks that open doors.
+Some keycards open many locks,
+some locks the keycards can only open 
+from a certain point in time to another.
+
+Some locks may have special keycards,
+which leave the door in a state
+of always open or always locked,
+or airlock mode,
+which only opens one door if another
+is closed.
+
+Some special users may grant other users
+access to some locks. 
+Only the very special users may grant the
+ability to grant users.
+

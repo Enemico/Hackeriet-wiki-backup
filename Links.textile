@@ -1,0 +1,16 @@
+
+
+* [[DogA]] [homepage](http://www.doga.no/)
+* [[EFN]] [homepage](http://efn.no/)
+* [[Fribit]] [homepage](http://fribit.no/)
+* [[IRB]] [homepage](http://irb.no/)
+* [[JavaBin]] [homepage](http://www.java.no/)
+* [[Kandu]] [homepage](http://www.kandu.no/)
+* [[LA2AB]] [homepage](http://www.nrrl.no/la2ab/)
+* [[LA4O]] [homepage](http://www.la4o.net)
+* [[Norsynth]] [mailing list](http://groups.yahoo.com/group/norsynth/summary)
+* [[NUUG]] [homepage](http://www.nuug.no/)
+* [[OLUG]] [homepage](https://olug.no/index.php/Hovedside)
+* [[Oslo.pm]] [homepage](http://oslo.pm.org/)
+* [[PING]], UiO student org. [homepage](http://ping.uio.no/)
+* [[Robotica Osloensis]], UiO student org. [homepage](http://robotica.ifi.uio.no/)

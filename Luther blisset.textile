@@ -1,0 +1,125 @@
+|1254.62.09006 | workshops |----
+44Â¤h1. Om Luther Blissett Cabaret
+
+Vi har utarbeidet en kveldskonsept som vi
+kan gjenta med jevne mellomrom, målet er en gang i måneden.
+
+Første arrangement var onsdag 12. november 2014.
+
+Tanken er å ha en slags kultur\-wok, et cabaret volitaire, et åpent forum
+for scenekunst, et evenement der folk kan komme og slappe av og nyte det som skjer.
+
+Målet er å ha det gøy først og fremst, og så vil vi gjerne
+tjene penger til leie og kanskje til å renumerere våre artister på sikt.
+
+Vi vil gjøre det så lett som mulig å ha en slik kveld, for å kunne
+gjenta kvelden og for at andre skal med letthet kunne bidra.
+
+h2. Kjøreregler
+
+Noen enke kjøreregler ble bestemt:
+
+Målet er å ha det gøy, ikke konkurrere med "utelivet" og jobbe masse, så
+kvelden bør vare ca 3 til 4 timer. 
+Det kan gjerne være en ukedag, med varighet til halv tolv så folk kommer seg på jobb dagen etter.
+Ca 50kr i inngangspenger. Vi søker ikke skjenkebevilling og har ikke alkohol i baren, men folk kan ta med egen drikke.
+
+Bidrag til programmet søkes blant kjente og ukjente.
+
+h2. Faste elementer
+
+Noen faste elementer som vi søker er:
+
+* ett band
+* en dj (trenger ikke være pro, en bakgrunnsmusikkansvarlig)
+* en vj eller projektor\-operator
+* konferansier (gjerne med teaterbakgrunn)
+* ett ekstra element (wildcard / random)
+
+For å kunne ha månedlig rutine rundt dette bør vi kunne finne bidrag til
+programmet i løpet av 2 uker, og deretter bruke 2 uker på å
+promotere arrangementet.
+
+h2. Oppstart og fremdrift
+
+h3. Start\-møte
+
+På første møte, der alle som skal organisere men ikke nødvendigvis alle som hjelper til deltar, bestemmes noen få enkle ting:
+
+* dato for arrangement
+* navn på arrangement
+* minimum crew \- 3 stykker til å håndtere selve dagen bør være på møtet
+* hvem vil gjøre hva (grafikk, annonsering, sosiale medier, skaffe artister, plakat)
+
+Retningslinje for dato er at det er minst 4 uker fra start\-møte.
+
+Retningsline for navn er at det antyder noe kollektivt, samlet men individuelt. Se gamle evenementer for inspirasjon: gummibjørn, maur, bølger, stråler.
+
+
+h3. Hva skal du si/spørre artistene
+
+* hvilket utstyr og instrumenter skal de ha på scena?
+* hva de trenger på scena?
+* (hvor lenge skal dere spille?)
+
+h3. Fremdrift
+
+Vi har til 2 uker før arrangement for å finne "hovedbidrag" til programmet,
+Mindre bidrag er velkomne til 5 min før de hopper på scena, men må
+klareres gjennom konferansier.
+
+Etter bør vi ha nok innhold og kan lage første utkast til plakat.
+Eksempel: oppstartsmøte er 2. mai, da er første aktuelle dato 2. juni og evenementet kan legges ut 16. mai.
+
+\-Vi har ingen bookingansvarlig. Alle som er med i bookinggruppa
+er ansvarlig for å booke gjennom multiplayer\-regnearket:
+
+https://docs.google.com/spreadsheets/d/1nUOhT0BV2\-i6hl1ey9RqlnIh6p81BBnA5SOZ49yuxGY/edit?usp=sharing\-
+
+I praksis er det én person som tar seg av alle bookings, og en person som tar seg av all innkommende mails.
+
+Alle bidrar til promo av arrangementet ved å poste det på face, twitter, underskog, instagram og og..
+
+h3. Rigging
+
+* Bord ryddes vekk, stoler settes opp for cabaret.
+* Projektor settes opp og testes.
+* Toalett vaskes før gjester kommer.
+* Lydsystem forberedes i forhold til kveldens behov: DI bokser, trommer, backline etc..
+
+h3. Lydsjekk
+
+Opptil en time før arrangement start bør band komme og sjekke lyden sin. Lydmann for kvelden skal være med og tune lyd. Dette er også en fin anledning for de forskjellige banda/artistene å bli kjent med hverandre før kvelden, så lydmann burde presentere dem ovenfor hverandre og oppfordre til litt leken atmosfære.
+
+h3. Opprydding
+
+Når arrangementet er over bør
+
+* pant og søppel ryddes og bæres ut
+* gulvet vaskes
+* toalettet vaskes
+
+h3. Oppgjør
+
+Oppgjør bør gjøres på samme kvelden av noen som stod i døra eller baren, etter at lokalet er tømt for gjester og dørene er lukket.
+
+# Pengene skal telles, dog 1\-kroningene og 5\-kroningene trenger ikke å telles.
+# Ca 1000kr i veksel (alle 50\- og mange 100\-lapper samt småpenger) legges igjen i kassa. Jo mere veksel legges igjen, jo bedre for neste arrangement. Sedler større enn 200kr trengs veldig skjeldent.
+# Totalbeløpet skrives ned og alt minus veksel taes med hjem av arrangørene og settes inn på arrangementskonto 1254.62.08980.
+# Mail sendes av den som tok oppgjøret til booking@ med beskjed om oppgjørsresultatet og hvem som skal sette inn penger på konto.
+
+Arrangørene kan gjerne fordele pengene mellom seg slik at flere får oppgaven med å sette inn penger på konto.
+
+h3. Debreifing  rapport
+
+De franske kaller dette "compte rendu".
+
+Tidligst praktisk mulig etter akten, gjerne dagen etter skal organisatørene samles og ta en runde. Hver av deltakerne svarer på:
+* Hva var bra med arrangementet?
+* Hva som var dårlig med arrangementet?
+* Hva kan forbedres til neste gang?
+* Hvordan kan vi organisere og planlegge oss bedre?
+
+Post\-mortem referes på mail til gruppa og lagres her: [[Debriefings]]
+
+Man kan gjerne kombinere post\-mortem og oppstartsmøte for neste arrangement.

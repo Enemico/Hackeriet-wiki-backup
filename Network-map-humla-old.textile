@@ -1,0 +1,76 @@
+32¤h1. Network Map
+
+_Before there was nothing. First there was Humla, and she made the Pipe and it was good. After Pipe came Krutt. Krutt spawned Kontoret, Podium and the Trunk. It grew into a monster, and after many floods Krutt went out with Bang, led by Linuxbrigaden. Then Hackeriet came and Bang was eaten by Star. Star is mother to Shoo, Bord and the separation of nice things from ugly things._
+
+Jump straight to: "Network repo":https://github.com/hackeriet/network | [[Troubleshooting]] | [[Switch|Switch config]] | [[fibernett:Ipplan| IP Plan]]
+
+There is no complete map. The Haus network evolved over many years, often helped along by speed freaks with wire crimpers, and the network cables sprawl all around the house like cobwebs built by a spider on acid. 
+
+Often, there is a solitary cable from the basement or Humla to a remote region of Haus, and often this cable is bent, broken and spliced multiple times, painted over and boarded up or plastered up, making it difficult to follow.
+
+Nevertheless, the picture looks more or less like this:
+(most up\-to\-date version in the "Network repo":https://github.com/hackeriet/network/blob/master/map_haus_nett
+<pre>
+
+    +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+         +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+
+\-\-\->| adsl gateway  | +\-\-\-\-\-\->| 2  kontoret       |
+    +\-\-\-\-\-\-+\-\-\-\-\-\-\-\-+ |       +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+
+           |          |     
+           v          |       +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+
+    +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+ |+\-\-\-\-\->| 6  podium         |
+    |     star      | ||      +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+
+    |\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-| ||    
+    |router/firewall| ||      +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+
+    |  dhcp + dns   | ||+\-\-\-\->| 5  vestbredden    |
+    |    splash     | |||     +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+
+    +\-\-\-\-\-\-+\-\-\-\-\-\-\-\-+ |||   
+           |          |||     +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+   
+           v          |||+\-\-\->| 88 musikk         |    +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+
+    +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+ ||||    +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+    |      hole\-sw      |
+    |     core      +\-+|||                          +\->|\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-|
+    |\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+\-\-+||    +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+ |  |      switch       |
+    |    switch     +\-\-\-+|+\-\->| 42 here be dragons| |  |  serverskapet     |
+    |               +\-\-\-\-+|   +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+ |  +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+
+    |  server room  +\-\-\-\-\-+ +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+  +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+  
+    +\-\-\-\-\-\-+\-\-\-\-\-\-\-\-+\-\-\-\-\-\-\-+ +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+    |   bord / hsw6     |  
+           |           +\-\-\-\-\->| 10 HMK / teateret | +\->|\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-|\-+ 
+           v           |      +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+ |  | 3 switch humla    | |
+    +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+\-\-+  +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+  +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+ |
+    |     trunk     +\-\-\-\-\-+   +\-\-\-\-\-\-\-\-\-\-+\-\-\-\-\-\-\-\-+    +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+ |
+    |\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+\-\-\-\-\-\-\-\->| 7 \- shoo | 4.etg  +\-\-\->|      3.etasje     | |
+    |    switch     |         +\-\-\-\-\-\-\-\-\-\-+\-\-\-\-\-\-\-\-+    +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+ |
+    | 3  humla      +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+                        |
+    +\-\-\-\-\-\-\-\-\-\-+\-+\-\-+         +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+ |  +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+ |
+               | +\-\-\-\-\-\-\-\-\-\-\->|     mnztr         | +\->| 69 skatehallen    | |
+               |              +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+    +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+ |
+               |                                                             |
+               |              +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+    +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+ |
+               +\-\-\-\-\-\-\-\-\-\-\-\-\->|     rateb         |    |      hsw4         | |
+                              +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+    |\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-|<+
+                                                       | 3 switch lab      |
+                                                       +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-+
+
+</pre>
+
+In other words, we have
+
+* a dsl line
+* a firewall, the current iteration of which is called star, doing NAT for all
+* a VLAN\-enabled core [[switch]]
+* a server rack with servers in it, on its own switch
+* a VLAN trunk to Humla
+* many networks connected through Humla
+* a VLAN trunk to the 4th floor
+* a VLAN trunk to the Mad Science Lab
+
+h2. [[fibernett:Ipplan|IP Plan]]
+
+There is an IP plan and we try to stick to it. Please see the [[fibernett:Ipplan]] page.
+
+h2. [[Switch]] configuration
+
+Go to the [[switch]] page for switch maps and config.
+
+h2. [[Troubleshooting]]
+
+Go to the [[troubleshooting]] page if you are experiencing problems with the network at large.

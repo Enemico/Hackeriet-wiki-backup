@@ -1,0 +1,110 @@
+it's a wiki. write stuff and it shows up :\-D----
+2¤h1. Mathematical!
+
+<pre>
+ 14:07:11         @fnords | tty32: fortune
+ 14:07:11          +tty32 | Anyone who cannot cope with mathematics is not fully human.  At best he
+ 14:07:12          +tty32 | is a tolerable subhuman who has learned to wear shoes, bathe and not
+ 14:07:12          +tty32 | make messes in the house.
+ 14:07:24         @fnords | yes :/
+ 14:07:38           @ln2v | math <3
+ 14:07:52         @fnords | i might need a maths tutor if i am to become fully human someday
+</pre>
+
+Topics that have been covered:
+*  Principles of Algebra:
+**    Distributive and Associative
+**    Axoims of Algebra
+*  Calculus:
+**    Functions
+**    Symmetry, Continuity, Rate of Change
+
+h3. Notes:
+
+check out the following notes:
+
+h4. Algebra
+
+http://mathforum.org/dr.math/faq/faq.property.glossary.html#operation
+
+http://www.themathpage.com/alg/distributive\-rule.htm
+http://math.about.com/od/algebra/a/distributive.htm
+
+https://www.khanacademy.org/math/algebra
+
+h4. Functions
+
+http://www.tech.plym.ac.uk/maths/resources/PDFLaTeX/Functions.pdf
+http://www.drdelmath.com/special_topics/Functions%20\-%20Examples%20\-%20Introduction.pdf
+
+https://www.khanacademy.org/math/algebra/algebra\-functions
+
+h3. Excersises
+
+Please try out these excersises:
+
+h4. Algebra
+
+http://www.marlboro.edu/academics/study/mathematics/courses/f05emls/simplifying
+
+h4. Functions
+
+http://www.math.canterbury.ac.nz/php/resources/math100/functions/
+http://derivative\-functions.cours\-de\-math.eu/exercises\-derivative\-basic.php
+
+
+h3. Wishlist
+
+
+Topics on the wishlist:
+
+fnords:
+* functions
+* better understanding of binary numbers
+** http://www.math.grin.edu/~rebelsky/Courses/152/97F/Readings/student\-binary
+* fourier transformations
+
+ln2v
+* integrals (and differentiation) 
+** http://math.feld.cvut.cz/mt/menue3dd.htm
+* fourier transformations 
+** http://www.wisdom.weizmann.ac.il/~vision/courses/2004_1/ex2/index.html
+** http://mathstat.carleton.ca/~amingare/calculus/Exercises\-Fourier\-Series.pdf
+
+karltk:
+* quaternions
+* + dependencies (linear algebra, complex numbers, coordinate systems, trigonometry)
+
+lafa:
+* lambda calculus
+* graph/set theory
+
+h3. excersises: 
+
+on attendance: 
+seeing as this is math lab I suggest you all find math excersises in your respectively chosen subjects
+excersises need not be insanely hard, but they should be something you dont know how to do yet
+hopefully if I don't know either we'll figure it out together
+
+on progression:
+http://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics
+
+h3. Plan
+
+To satisfy the wishlist we must first satisfy the dependencies.
+
+dependencies (makefile style)
+<pre>
+fourier_transforms: integration complex_numbers
+integration: differentiation
+differentiation: functions trigonometry
+functions: algebra
+binary numbers: algebra arithmetic number_theory
+quaternions: linear_algebra integration complex_numbers trigonometry
+trigonometry: geometry
+graph_theory: set_theory
+set_theory: number_theory
+number_theory: proofs
+</pre>
+
+*Pictures!*

@@ -1,0 +1,62 @@
+----
+41¤h1. Boot Server
+
+The boot server is there to make installing linux easier. Fresh and current images should be delivered to any pXe\-enabled machine for live linux testing, troubleshooting, desktop and server installs.
+
+h2. Setup.
+
+DHCP on the gateway <b>star</b> is configured to serve blade.hackeriet.no as the boot server.
+
+Blade has two services; pxe and TFTP. PXE is just a bit tho talk to the booting machines, all the magic really happens in the files served over TFTP, in a magical directory.
+
+h3. @/var/lib/tftpboot@
+
+@default.cfg@ describes the main PXE menu, the first thing that shows up when you boot. Changes to this file are picked up by booting machines as they boot.
+
+An entry in this file looks roughly like this:
+<pre>
+# the text boot label
+LABEL mint\-cinnamon
+        # the label as it appears in the graphical menu
+        menu label Mint Cinnamon Desktop i386
+        # the location of the kernel to boot, relative to /var/lib/tftpboot
+        kernel mint/vmlinuz
+        # boot options
+        append root=/dev/nfs boot=casper netboot=nfs nfsroot=10.0.130.100:/export/mint\-15\-cinnamon initrd=mint/initrd.lz \-\-
+</pre>
+
+@default.cfg@ is full of entries just like this. Adding a boot image merely involves adding an entry similar to the above.
+
+h3. Anatomy of a boot image
+
+A boot image consists of a kernel, an initial RAM disk, and optionally an NFS mount with the installation files. Large DVD or CD installers, and live distributions typically need an NFS mount to work. 
+
+Small installers, like the debian netboot installer, do not need anything other than the kernel and initial ram disk because they get the rest off network mirrors.
+
+h3. Updating Debian Testing
+
+Testing which is codenamed Jessie at the time of writing, updates its installer images every day. This means that if you are using netboot, an old install image will be out of sync with the installer, *this will break the installer*.
+
+Get a new netboot.gz from the debian archive and put vmlinuz and initrd in @/var/lib/tftpboot/jessie@ to update the installer.
+
+http://saimei.acc.umu.se/cdimage/daily\-builds/daily/arch\-latest/amd64/iso\-cd/debian\-testing\-amd64\-netinst.iso
+
+h3. Installers with NFS mounts.
+
+Did you notice the @nfsroot=@ line above?
+Live CD kernels usually support this directly.
+
+The trick to this is simple:
+
+#. Mount the image: @mount \-o loop \-t iso966o IMAGE.ISO /mnt/target@
+#. Copy the image: @rsync \-a /mnt/target/ /export/my\-image\-name@
+#. Export over NFS: @echo /export/my\-image\-name/	10.10.0.0/16(ro,subtree_check) >> /etc/exports@
+#. Reload NFS: @service nfs\-kernel\-server restart@
+
+Now you can use nfsroot=blade.hackeriet.no:/export/my\-image\-name/ in your pXe image definitions.
+
+h2. History
+
+The pXe boot server has been operating since mid\-2009. 
+Since only one or two people knew how to use it, the images broke often. When vulcano died in the flood of 2010, it was off for almost a full year before being restored to razor and then moved to blade.
+

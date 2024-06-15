@@ -1,0 +1,31 @@
+* "Design patterns":https://wiki.hackerspaces.org/Design_Patterns on hackerspace organizations.----
+
+h1. System Door Lock
+
+System Design Objectives:
+
+tamper and sabotage resist.
+cheaply, easily sourced and quickly interchangable parts.
+semi\-decentralized. network attached.
+
+h2. Overview:
+
+Raspberry Pi's with Raspbian, relays, strike locks and RFID/NFC readers.
+
+[[Specification]]
+
+h2. Status:
+
+Pi operates relay and NFC readers and opens the strike lock through GPIO pins with shell scripts.
+See the "door repo":https://github.com/hackeriet/door for more information.
+
+h2. Documentation:
+
+[[HowtoAdd|How to add a key to the door system]]
+[[HowtoRestart|How to restart the door system]]
+[[Construction]]
+
+h2. Further work:
+
+http://dx.com/p/contactless\-smart\-id\-card\-reader\-black\-143889
+http://www.seeedstudio.com/wiki/index.php?title=13.56Mhz_RFID_module_\-_IOS/IEC_14443_type_

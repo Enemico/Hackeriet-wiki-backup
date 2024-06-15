@@ -1,0 +1,214 @@
+----
+57¤h1. Community Protocols
+
+Hackeriet's community protocols are quite simply routines to make everyday Hackeriet operations easier. 
+
+This document aims to formalize and unify the unwritten and written rules of the project that has become known as Hackeriet.
+
+We will add or change routines if we identify lacks and wants in the current ones.
+
+Most rules are implemented in practice, some are idealized. As of today this is a "rough draft".
+
+h2. [[Goals]]
+
+The goals of hackeriet are:
+
+* a community by and for hackers
+* a place to share components, ideas and experiences
+* a creative space free from prejudice
+* a place to host happenings
+* a place to gather, build and use tools
+* a way to meet like\-minded individuals from Oslo and the world
+* a sister organization to the hackerspaces and hacklabs of the world
+
+h2. Do this
+
+some of the things you can do:
+
+* work on things
+* install things
+* host workshops, talks
+* play cinema
+* host servers
+* get pointers from more experienced hackers
+* share the cost of expensive machinery with others
+* hang\-out with old, and meet new friends of hackeriet; at international festivals/conventions
+* learn from others and teach
+*  ??
+*  be awesome
+
+h2. [[Conduct]]
+
+what you can't do:
+break the code of conduct and
+be an asshole
+
+h2. [[Membership]]
+
+* joining is easy, start by showing up to an event!
+* having a fadder is helpful for any newbie
+* get familiar with the place, learn the ropes
+* pay membership
+* a full member if vouched for by 3 members
+* "adopt\-an\-equipment"
+
+h2. [[Fadder]]
+
+hackeriet members who adopt a newcomer and:
+
+* bring newcomers into the space
+* show them around
+* help them with projects
+* introduce them to people
+* teach the routines
+* help them hold their first talk/workshop
+* lend them your key
+
+h2. Captains
+
+Captains are Hackeriet members who are willing to "hold the steering wheel" once in a while. This involves:
+
+* in charge of the lulzboat
+* a potential [[/fadder]]
+* responsible for opening the door on time
+* preparing the room (eg turn on music, projector, coffee machine)
+* showing newbies around and answering questions
+* selling mate and tshirts and whatever else there is to sell
+* a trustworthy contact person who will throw out misbehaving people if necessary
+
+You can reach all the captains on email: captains AT hackeriet.no
+
+You too can be a captain! Get to know the space, get an access key, and offer to be captain of the boat next time we meet.
+
+
+h2. entering the space
+
+"switch on the place, announce presence"
+
+* music
+* check beverage state: order mate, get beer, get coffee
+* coffee
+* door check
+
+h2. Leaving the space
+
+check&close back door
+check&close windows 
+turn off the coffee maker
+"switch off" \- lights, music, projector
+empty the garbage, install a new garbage bag
+check that doors are locked
+
+h2. Garbage & Litter
+
+When leaving the space, or when the garbage overflows, take the trash out into the bins in the back yard.
+
+Everything other than "regular trash", ie furniture, paint, electronics, recyclables is our own responsibility to remove from the premises, don't just leave these in the back yard like everyone else! We do care about our environment. Remove the garbage yourself or make an appointment with other members to drive the stuff away at the earliest convenience.
+
+h3. Pant / bottle return
+
+Our distributor takes care of Club Mate pant. Beer pant and spent bottles are *your* responsibility too! If you drink soda or beer, please consider getting rid of a crate or bag of pant every now and again.
+
+h2. Hosting an event
+
+* decide event date and time
+* write a title, and a blurb about the event (and speakers/artists hosting it)
+* announce on the mailing list, meetup, twitter OR
+* invite the people you want to show up however you want
+* make sure you have a key to the front door
+* show up 30 minutes before to fix chairs, projector, coffee
+* open the door and hang a sign outside
+
+
+h2. payment & [[money]]
+
+h3. Buying Club Mate on credit
+
+Paying members can register their small loans in the ledger, a little green book in Hackeriet. Please pay your dues every month!
+
+h3. Cash register
+
+We no longer keep loads of change. If you want to pay with coins, put them in the "mate can". Otherwise, pay by iZettle. Any cash overflow is taken by captains and deposited into the hackeriet bar account number 1254.62.08972. 
+
+h3. iZettle
+
+The bar has an iZettle card machine. It needs a phone and an iZettle account to operate. [[Captains]] and [[Fadder]] should know how to operate these. Account is in [[CPM]].
+
+h2. Equipment
+
+use with care
+always stow away after use
+some things need schooling and help
+new equipment? Buy and share, or drive a pledge to buy expensive equipment.
+
+h2. Club Mate
+
+Mate\-based drinks are part of the infrastructure!
+
+Ordered from Sindre at Yerba Mate Norway, tel 99798869. We have an account and they send us invoices. Usually delivered the day after order is placed.
+
+Whoever orders has to make sure there is someone present to receive the crates.
+
+We usually get 10 crates at a time. Sindre takes the spent bottles and crates back at the same time, especially if someone helps.
+
+h2. Stickers
+
+Stickers are part of the infrastructure!
+
+We have ordered stickers from 
+ \- a marketing shop in Lysaker
+ \- a print shop in Warsaw
+ \- "StickerMule":http://stickermule.com
+
+Usually the budget is about 2000kr and we aim for about 1000 stickers.
+
+These have ranged in sizes and qualities. Paper stickers are really cheap, but wear too quickly. Vinyl stickers are more expensive and wear less, but some of them fade quickly or have poor glue. The best ones yet have been from StickerMule.
+Really large stickers cost up to 10kr per sticker.
+
+Designs for previous sticker runs are here:
+https://github.com/hackeriet/logo/tree/master/sticker
+
+Each run we tweak the size and look a little, to experiment with what we like best. For instance, we had a debate on whether to put the name "hackeriet" on the stickers, and we have done both with and without.
+
+h2. T\-Shirts
+
+T\-Shirts are part of the infrastructure.
+
+If you are ordering t\-shirts for Hackeriet: be patient and listen to others, and stay within budget, but remember it is ultimately up to you, so you get to make the choices!
+
+Getting new tees involves a couple steps: 
+
+# Get budget approval (typically 4000kr for 30 to 50 shirts) and a deadline (typically an event we need more tees for).
+# Starting with the previous version of t\-shirt, make a mockup of a new t\-shirt design.
+# Ask other people whose opinions you care about how to make it even better. Repeat step 2 until you are happy or the deadline is approaching.
+# Send a quote request to a t\-shirt printing company. Include an EPS version of the design, making clear what is front and what is back, how many tees you want and that you want watercolor silkscreen.
+# If you are happy with the quote, send them an order specifying a matrix of tee types, sizes, colors and counts of tees. Ask them for a proof of the order for final approval.
+# You can change pretty much everything about the order until you send them your final approval.
+
+Tees have been ordered from Poland through comotion, mainly to cut costs, as we have gotten them for between 60kr and 80kr  a shirt rather than 150kr per shirt obtainable in Norway or from the EU or US\-based online sweatshops. We also got tote bags.
+
+Last tee order was from "CorporateImage":http://corporateimage.pl
+Remember: if you are ordering you get to choose where from, too!
+
+T\-shirt designs are here:
+https://github.com/hackeriet/logo/tree/master/sticker
+
+Considerations when ordering stickers are:
+* front and back design
+* "hackeriet" lettering, some people prefer not to have this, while hackeriet needs some promotion.
+* the fontface for the lettering. There are many great fonts out there, which makes it hard to choose one and stick to it. Currently the lettering is in the "0xA000 font":http://pippin.gimp.org/0xA000/ which is handcoded by one of us!
+* T\-Shirt sizes. We use mostly L and XL and some M but have some members that need S or XXL. Women also come in all sizes, but come more often in M sizes.
+* T\-shirt cuts. Women need a womans cut of t\-shirt. Some men are tall and lanky, and need large "fitted", to avoid the tee looking like a tent on them. Some people like v\-necks.
+* Material, thread count and stretchiness. 
+* Colors. Great for bikeshedding.
+
+Previous order was for SuperFruit, Fruit Fitted and Womens Valueweight, all by Fruit of the Loom.
+
+The design and quality is important! Vinyl t\-shirts have high contrast but are uncomfortable to wear due to large plastic areas. These also bend and disform over time. Water\-based silkscreen prints have lower contrast but are much more comfortable. 
+
+If in doubt, use the previous order as a basis for the new order.
+
+h2. Parts
+
+* resistors, caps, some chips (msp430, atmega) are "free" to members
+* components, shields, sensors cost a small fee

@@ -1,0 +1,40 @@
+For inspirasjon, sjekk "hackeriets projekter":http://pad.microdisko.no/p/hackeriets\-projekter----
+63¤h1.  Lord Nikon the Bulletin Board System
+
+Nikon is our BBS and shell service for members, we call it `nikon.hackeriet.no`. It's a a comms platform and learning place and a fun diversion as a piece of culture. 
+
+<pre>
+We have a stable link.
+We have games. 
+We have bulletins.
+We have a multi\-user dungeon.
+We have a web service for you.hackeriet.no
+We have internal mail and ultra\-secure talk(1)
+We have asciipr0n.
+</pre>
+
+It's all in the menu. 
+
+You don't have to know how. Don't worry, you will learn. You can put your internet relay chat in a screen(1) on the box, and stay always online! You can share files with fellow hackers. You can set up bots and install software. And the best thing: you can interact with the other users.
+
+For some of us our first interactions with UNIX was through an account on a large login server, it was unusually strange because we came from a gooey background but it grew on us quickly, the amazing benefits becoming gradually apparent.
+
+Many things are simply not possible through a graphical interface... especially [CSI stuff](http://kacper.blog.redpill\-linpro.com/archives/7).
+
+krav and comotion amongst others have been working hard to bring this collaborative platform to Hackeriet.
+
+h2. Gaining access
+
+People with accounts have the power to add new users to the system. You should be on this mailinglist and or IRC #oslohackerspace @freenode and find someone with an existing account to get your own.
+
+h2. How to connect?
+ You need to open a terminal and type 
+
+<pre> 
+ssh nickname@nikon.hackeriet.no
+</pre>
+
+If you are unfortunate enough to be running a terminal\-less system, you probably need [KiTTY](http://kitty.9bis.com/).
+
+Because, you know,
+[In the Beginning was the Command Line](http://artlung.com/smorgasborg/C_R_Y_P_T_O_N_O_M_I_C_O_N.shtml)

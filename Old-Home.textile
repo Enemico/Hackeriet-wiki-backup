@@ -1,0 +1,67 @@
+Please see the [[ipplan]]----
+8¤h1. Hackeriet
+
+!http://comotion.hackeriet.no/logo/hackeriet_logo.svg! 
+
+This is the Hackeriet wiki. 
+This wiki is a gathering place for information about Hackeriet. 
+
+
+Hackeriet is Oslo's coolest hacklab/hackerspace, with space at Hausmania Culture house.
+
+We do wearables, mechanics, electronics, fabrication, automatisation, creative recycling, socioeconomix, telecomix, 2600 style chipmonk, filtering, bass waves, heavy metal works, language wars, high voltage, biohacking, cypherpunk, cryptoparties, hsync and vsync, radio, code zen, free software, permaculture, social engineering, quantum fiziks, particle bendage and data love.
+
+[ "irc":http://webchat.freenode.net?channels=oslohackerspace&uio=d4 | "pad":http://pad.hackeriet.no | "projects":https://projects.hackeriet.no | "map":https://maps.google.com/maps?q=Hausmannsgate+34%2C+Oslo | "meetup":http://meetup.com/hackeriet | "gallery":http://gallery.hackeriet.no ]
+
+h2. What is Hackeriet?
+
+This a physical space where people can go to make things, meet others and share knowledge and technology. This is not just about computer programming; Any hackers, from ham radio people and electronics geeks to artists and metalworkers are welcome to join up. Our strength is in diversity. If you have your own project, Hackeriet can offer you support. If you are just getting started, or don't know what to learn next, Hackeriet is the place to be. If you have skills you would like to share, you can gain recognition from your peers and experience with delivery.
+
+If you are new to the space, you should read the [[Newcomers Guide]].
+
+
+h2. News
+
+* New web frontpage :D
+* "Hacking costs money, please pay your dues today":http://hackeriet.no/costofhacking 
+
+h2. Get in touch!
+
+* "Chat with us":http://webchat.freenode.net?channels=oslohackerspace&uio=d4 on IRC! Join our 25/7 irc channel "#oslohackerspace":irc://irc.freenode.net/#oslohackerspace on "Freenode":http://freenode.net/irc_servers.shtml
+* Come to our weekly project hacking at our "meetups":http://meetup.com/hackeriet, "findin the space":https://maps.google.com/maps?q=Hausmannsgate+34%2C+Oslo on Tuesdays from 1800 and Saturdays from 16ish. Visit us! No Registration required, just stop by and say hello! If you come by car, read [[Parking]] for some hints. 
+* Take part in the discussions on our [[mailinglist]].
+* Follow us on twitter "@hackeriet":https://twitter.com/#!/hackeriet
+* [[CFP]] \- Do you have some knowledge to share?
+
+h2. Tell me more!
+
+* [[Newcomers Guide]] \- Who and what to know.
+* [[Projects]] \- It's what it is all about!
+* [[Workshops]] \- past and planned
+* [[Events]] and other special happenings.
+* See some "pictures":http://gallery.hackeriet.no/ (also on "meetup.com":http://www.meetup.com/hackeriet/photos/ ) from our events.
+* Become a [[membership|member]].
+* [[Goals]] \- Why we do what we do.
+* [[Routines]] \- How we do what we do.
+* [[Conduct]] \- How we behave doing do what we do.
+* [[Bylaws]] \- Legal mumbo jumbo.
+* [[Links]] \- Old\-school link collection.
+* [[wantedstuff]] \- Stuff we need. (can you help?)
+* [[CoolStuffWeHave]] \- title says it all.
+* [[Donations]]: What hardware we have accepted in the past from whom, and our donation acceptance policy.
+
+!http://pippin.gimp.org/tmp/hqr/hqr1.png!
+
+h2. For members
+
+*[[Components]]*: Components we stock and where we get them from. 
+*[[Tools]] and "Equipment":http://hackeriet.no/equipment*: Some of the tools our members have access to.
+*[[Materials]]*: Where to go to find materials for your project.
+*[[Services]]*: Who to talk to about what service at Hackeriet.
+*[[hausnet:Network Map|Network]]*: The physical network infrastructure, explained.
+*[[Budget]]*: Our current monthly budget.
+*[[Food]]*: where to get a (hot) meal nearby.
+
+h2. For captains
+
+(should be moved to a sub\-page at some point)
